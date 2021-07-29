@@ -55,7 +55,7 @@ nav{
 /*header leamon image*/
 .lemon-header-image{
 /*    margin-top: 1rem;*/
-    background-image: url("images/desktop/image-header.jpg");
+    background-image: url("./images/image-header.jpg");
     height: 45rem;
     background-position: center;
   background-repeat: no-repeat;
@@ -116,14 +116,14 @@ img{
 
 
 .brand-info-1, .brand-info-2{
-    background-image: url(images/desktop/image-graphic-design.jpg);
+    background-image: url(./images/image-graphic-design.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 35rem;
 }
 .brand-info-2{
-    background-image:url(images/desktop/image-photography.jpg);
+    background-image:url(./images/image-photography.jpg);
 }
 .brand-info-1-heading{
     font-family: var(--ff-secondary);
