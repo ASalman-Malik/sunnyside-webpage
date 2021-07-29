@@ -2,197 +2,155 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sunnyside | Agency | Landing | Page | Salman Malik</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+    <title>Sunnyside | Agency Landing Page | Salman Malik</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+        .attribution {
+            font-size: 11px;
+            text-align: center;
+        }
+
+        .attribution a {
+            color: hsl(228, 45%, 44%);
+        }
+    </style>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Sunnyside</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </div>
-          </div>
+    <nav>
+        <ul>
+            <li class="logo"><a href="#">Sunnyside</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="lemon-header-image">
+        <h1 class="lemon-header-image-text">We are creatives</h1>
+    </div>
+    
+    <section class="brand">
+        <div class="brand-info">
+            <h2 class="brand-info-heading">Transform your brand</h2>
+            <p class="brand-info-para">We are a full-service creative agency specializing in helping brands grow fast.
+    Engage your clients through compelling visuals that do most of the marketing for you.</p>
+            <label class="text-start-1">Learn more</label>
         </div>
-      </nav>
-
-      <!-- section 1 for below nav bar -->
-      <section class="container  bg-primary text-center">
-        
-          <div class="container-fluid d-flex d-block flex-column align-items-stretch">
-              <h2 class="centered">WE ARE CREATIVE</h2>   
-              <img src="./images/image-header.jpg" class="header-image" alt="half orange image">
-          </div>
-      </section>
-
-      <!-- section 2 egg and text -->
-      <section>
-        <div class="container container-fluid">
-            <div class="d-flex flex-row">
-                
-                 <div class="d-flex flex-column">
-                     <div class="d-flex flex-column text-div">
-                    <h2 class=" headign-image">Transform Your Brand</h2>
-                    <p class="para-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Iusto similique laborum enim corporis sequi, provident 
-                         ducimus consectetur quibusdam et soluta esse </p>
-                         <label class="text-start">LEARN MORE</label>
-                    </div>
-
-                </div>
-                <div>
-                    <img src="./images/image-transform.jpg" alt="image of egg">
-                </div>
-            </div>
-
-        </div>
-
-      </section>
-      <!-- sectoin 2  -->
-      <section>
-        <div class="container container-fluid">
-            <div class="d-flex flex-row">
-                <div>
-                    <img src="./images/image-stand-out.jpg" alt="image of egg">
-                </div>
-                 <div class="d-flex flex-column">
-                     <div class="d-flex flex-column text-div">
-                    <h2 class=" headign-image">Stand out to the right audience</h2>
-                    <p class="para-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                         Iusto similique laborum enim corporis sequi, provident 
-                         ducimus consectetur quibusdam et soluta esse </p>
-                         <label class="text-start">LEARN MORE</label>
-                    </div>
-
-                </div>
-                
-            </div>
-
-        </div>
-      </section>
-      <!-- section 3 -->
-      <section>
-        <div class="container container-fluid">
-            <div class="d-flex flex-row">
-                <div>
-                    <img src="./images/image-graphic-design.jpg" alt="image of egg">
-                    <div class="centered-bottom">
-                        <h2 class="text-center1">Graphic Design</h2>
-                        <p class="para-text-bottom-left">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Iusto similique laborum enim corporis sequi, provident 
-                            ducimus consectetur quibusdam et soluta esse</p>
-                    </div>
-                </div>
-                 <div class="d-flex flex-column">
-                     
-                    <img src="./images/image-photography.jpg">
-                    <div class="centered-bottom">
-                        <h2 class="text-center1">Photography </h2>
-                        <p class="para-text-bottom-left-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Iusto similique laborum enim corporis sequi, provident 
-                            ducimus consectetur quibusdam et soluta esse</p>
-                    </div>
-                    
-
-                </div>
-                
-            </div>
-
-        </div>
-      </section>
-      <!-- section 4 for client testimonial -->
-      <section>
-        <label class="client">CLIENT TESTIMONIALS</label>
-          <div class="container">
+        <img src="images/desktop/image-transform.jpg">
+        <img src="images/desktop/image-stand-out.jpg">
+        <div class="brand-info">
+            <h2 class="brand-info-heading">Stand out to the right audience</h2>
+            <p class="brand-info-para">Using a collaborative formula of designers, researchers, photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.</p>
+             <label class="text-start">Learn more</label>
             
-              <!-- image emily -->
-              <div class="text-center">
-                  
-                  <img src="./images/image-emily.jpg" class="dp" alt="">
-                  <p class="dp-para">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Iusto similique laborum enim corporis sequi, provident 
-                    ducimus consectetur quibusdam et soluta esse</p>
-                    <h4 class="client-name">Emily R.</h4>
-                    <label class="designation">Marketing Director</label>
-              </div>
-              <!-- image Thomas -->
-              <div class="text-center gap-5 thomas"> 
-              
-                  <img src="./images/image-thomas.jpg" class="dp" alt="">
-                  <p class="dp-para">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Iusto similique laborum enim corporis sequi, provident 
-                    ducimus consectetur quibusdam et soluta esse</p>
-                    <h4 class="client-name">Thomas S.</h4>
-                    <label class="designation">Chief Operating Officer</label>
-              </div>
-                <!-- Jennie -->
-              <div class="text-center gap-5">
-                  <img src="./images/image-jennie.jpg" class="dp" alt="">
-                  <p class="dp-para">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Iusto similique laborum enim corporis sequi, provident 
-                    ducimus consectetur quibusdam et soluta esse</p>
-                    <h4 class="client-name">Jennie F.</h4>
-                    <label class="designation">Business Owner</label>
-              </div>
-          </div>
-      </section>
-
-      <!-- section 5 for different images -->
-      <section>
-          <div class="container ">
-              <div class="d-flex ">
-                <div class="col-3">
-                  <img src="./images/image-gallery-milkbottles.jpg" class="img-footer" alt="">
-                </div>
-                <div class="col-3">
-                  <img src="./images/image-gallery-orange.jpg" class="img-footer alt="">
-                </div>
-                <div class="col-3">                 
-                     <img src="./images/image-gallery-cone.jpg" class="img-footer alt="">
-                    </div>
-                    <div class="col-3">             
-                             <img src="./images/image-gallery-sugarcubes.jpg" class="img-footer alt="">
-                            </div>
-
+        </div>
+        
+        <div class="brand-info-1">
+            <h2 class="brand-info-1-heading">Graphic design</h2>
+            <p class="brand-info-1-para"> Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.</p>
+        </div>
+        <div class="brand-info-2">
+            <h2 class="brand-info-2-heading">Photography</h2>
+            <p class="brand-info-2-para">Increase your credibility by getting the most stunning, high-quality photos that improve your business image.</p>
+        </div>
+    </section>
+     <section class="client-testimonial">
+<!--
+        <div>
+        <h2 class="client-testi">Client testimonials</h2>
             </div>
-          </div>
-      </section>
-      <!--section 6 for footer  -->
-      <section class="footer">
-        <label class="client-name-1">sunnyside</label>
-          <div class="container footer">
+-->
+        
+        <div class="client-info">
             
-              <!-- image emily -->
-              <div class="footer-text-1">
-                  
-               
-                    <label class="">About</label>
-              </div>
-              <!-- image Thomas -->
-              <div class="footer-text"> 
-              
-                    <label class="">Services</label>
-              </div>
-                <!-- Jennie -->
-              <div class="footer-text">
-                 
-                    <label class="">Projects</label>
-              </div>
-          </div>
+            <img class="client-image" src="images/image-emily.jpg">
+            <p class="client-testimonial-para">We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.</p>
+            <h3 class="client-name">Emily R.</h3>
+            <p class="client-designation">Marketing Director</p>
+        </div>
+        <div class="client-info">
+            <img class="client-image" src="images/image-thomas.jpg">
+            <p class="client-testimonial-para"> Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.</p>
+            <h3 class="client-name">Thomas S.</h3>
+            <p class="client-designation">Chief Operating Officer</p>
+        </div>
+        <div class="client-info">
+            <img class="client-image" src="images/image-jennie.jpg">
+            <p class="client-testimonial-para">Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!!</p>
+            <h3 class="client-name">Jennie F.</h3>
+            <p class="client-designation">Business Owner</p>
+        </div>
         
-        
-      </section>
-     
-</body>
-</html>
+    </section>
+
+    
+    
+    <section class="image-info">
+        <img class="image-info-1" src="images/desktop/image-gallery-milkbottles.jpg">
+        <img class="image-info-1" src="images/desktop/image-gallery-cone.jpg">
+        <img class="image-info-1" src="images/desktop/image-gallery-orange.jpg">
+        <img class="image-info-1" src="images/desktop/image-gallery-sugarcubes.jpg">
+    </section>
+    
+    
+    <section class="footer-info">
+        <div class="footer">
+            <h2 class="client-name-1">sunnyside</h2>
+        </div>
+        <div class="footer-1">
+            <label class="links"> About</label>
+            <label class="links"> Services</label>
+            <label class="links"> Projects</label>
+            
+        </div>
+        <div class="footer-2">
+            <img class="social" src="images/icon-facebook.svg">
+            <img class="social" src="images/icon-instagram.svg">
+            <img class="social" src="images/icon-twitter.svg">
+            <img class="social" src="images/icon-pinterest.svg">
+        </div>
+    
+    </section>
+    
+   
+    
+
+
+
+    
+   
+
+    
+    
+
+    
+
+    
+    
+
+   
+    
+    
+
+    
+    
+  
+
+   
+    
+    
+    
+
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Ahmad Salman Malik</a>.
+    </div>
+</body></html>
