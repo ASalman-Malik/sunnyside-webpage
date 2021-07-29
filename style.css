@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Cinzel+Decorative&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Cinzel+Decorative&family=Fraunces:wght@700;900&display=swap');
+
+:root{
+    /* Primary Colors */
+--Soft-red: hsl(7, 99%, 70%);
+--Yellow: hsl(51, 100%, 49%);
+/* -(graphic design text) */
+--Dark-desaturated-cyan: hsl(167, 40%, 24%);
+/* (photography text) */
+--Dark-blue: hsl(198, 62%, 26%);
+/* (footer) */
+--Dark-moderate-cyan: hsl(168, 34%, 41%);
+
+    /* Neutral Colors */
+--Very-dark-desaturated-blue: hsl(212, 27%, 19%);
+--Very-dark-grayish-blue: hsl(213, 9%, 39%);
+--Dark-grayish-blue: hsl(232, 10%, 55%);
+--Grayish-blue: hsl(210, 4%, 67%);
+--White: hsl(0, 0%, 100%);
+/* fonts */
+--ff-primary: 'Barlow', sans-serif;
+--ff-secondary: 'Fraunces', serif;;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    
+}
+.centered{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--White);
+    font-family: var(--ff-secondary);
+    font-weight: 900;
+    font-size: 3rem;
+    letter-spacing: .7rem;
+  }
+  /* heading beside image */
+  .headign-image{
+      font-family: var(--ff-secondary);
+      font-weight: 600;
+      letter-spacing: 0.2rem;
+      margin-bottom: 2rem;
+  }
+
+  /* image beside text */
+  .text-div{
+      margin: 5rem;
+      margin-top: 15rem;
+      
+      
+  }
+  /* image beside paragraph */
+  .para-text{
+      font-family: var(--ff-primary);
+      color: var(--Dark-grayish-blue);
+      margin-bottom: 2rem;
+      
+  }
+  /* learn more */
+  .text-start{
+      font-family: var(--ff-secondary);
+      font-weight: 700;
+      text-decoration: underline;
+      text-decoration-color: var(--Yellow);
+  }
+  /* hover effect on learn more */
+  .text-start:hover{
+      cursor: pointer;
+  }
+  /* for bottom center text in photography section*/
+  .centered-bottom{
+      margin: 5rem;
+      /* position: absolute; */
+      /* top: 260%; */
+      /* left: 20%; */
+      /* transform: translate(-50%, -50%); */
+      margin-top: -13rem;
+    
+      
+  }
+  /* text of centered bottom */
+  .text-center1{
+    font-family: var(--ff-secondary);
+    margin-bottom: 2rem;
+    color: var(--Dark-moderate-cyan);
+
+  }
+  .para-text-bottom-left{
+      font-family: var(--ff-primary);
+      color:var(--Dark-desaturated-cyan);
+  }
+  .para-text-bottom-left-1{
+    font-family: var(--ff-primary);
+    color:var(--Dark-blue);
+}
+
+/* display profile image */
+.dp{
+    border-radius: 50%;
+    width: 5rem;
+    /* margin-top: 1rem; */
+    margin-bottom: 3rem;
+}
+/* thomas for gap in between */
+.thomas{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+/* for client testimonial */
+.client{
+    font-family: var(--ff-secondary);
+    color: var(--Grayish-blue);
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin: 5rem;
+    letter-spacing: 0.3rem;
+    margin-left: 35rem;
+    margin-top: 20rem;
+}
+/* dp-para */
+.dp-para{
+    font-family: var(--ff-primary);
+    color: var(--Very-dark-grayish-blue);
+}
+/* designation */
+.designation{
+    color: var(--Grayish-blue);
+    margin-top: -1rem;
+    margin-bottom: 10rem;
+}
+/* cliet name */
+.client-name{
+    font-family: var(--ff-secondary);
+    font-weight: 300;
+}
+
+/* image before footer */
+.img-footer{
+    width: 21rem;
+}
+/* footer */
+.footer{
+    background-color: var(--Dark-moderate-cyan);
+    color:var(--Dark-desaturated-cyan)
+}
+.client-name-1{
+    font-family: var(--ff-secondary);
+    color:var(--Dark-desaturated-cyan);
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin: 3rem;
+    letter-spacing: 0.3rem;
+    margin-left: 40rem;
+
+}
+.footer-text-1{
+    margin-left: 30rem;
+    margin-bottom: 7rem;
+}
+.footer-text{
+    margin-left: 5rem;
+    justify-content: center;
+    margin-bottom: 7rem;
+}
